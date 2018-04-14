@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="RedmineUWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RedmineUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox HorizontalAlignment="Left" Margin="503,215,0,0" Text="" VerticalAlignment="Top" Height="75" Width="386" Name="txtBox"/>
+        <Button Content="Hello World" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="594,497,0,0" Height="124" Width="213" Click="BtnSpeak_Click" Name="btnSpeak"/>
+
+    </Grid>
+</Page>
